@@ -39,6 +39,21 @@ const Navbar = () => {
                 <Image src={assets.menu_black} alt='' className='w-6' />
             </button>
         </div>
+        {/* ########## mobile menu ########## */}
+
+        <ul className='flex md:hidden flex-col gap-4 py-20 px-10 fixed
+        -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-blue-50 transition
+        duration-500'> 
+
+            <div className='absolute right-6 top-6' >
+                <Image src={assets.close_black} alt='' className='w-5 cursor-pointer'/>
+            </div>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About</a></li>
+            {/* <li><a onClick={closeMenu} href="#resume">Resume</a></li> */}
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
         </nav>
     </div>
   )
