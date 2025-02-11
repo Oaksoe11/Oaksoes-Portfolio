@@ -3,6 +3,28 @@ import Image from 'next/image'
 import React from 'react'
 
 const Navbar = () => {
+    const Navbar = () => {
+        const sideMenuRef = useRef();
+    
+        const openMenu = () => {
+            sideMenuRef.current.style.transform = 'translateX(-16rem)'
+        }
+    
+        const closeMenu = () => {
+            sideMenuRef.current.style.transform = 'translateX(16rem)'
+        }
+    
+        const [isScroll, setIsScroll] = useState(false);
+        useEffect(() => {
+            window.addEventListener('scroll', () =>{
+                if(scrollY > 50){
+                    setIsScroll(true);
+                }else{
+                    setIsScroll(false);
+                }
+            })
+        },[])
+
   return (
     <div>
         <div className = 'fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
@@ -57,6 +79,6 @@ const Navbar = () => {
         </nav>
     </div>
   )
-}
+}}
 
 export default Navbar
