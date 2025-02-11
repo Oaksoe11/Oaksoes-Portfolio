@@ -1,9 +1,8 @@
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 const Navbar = () => {
-    const Navbar = () => {
         const sideMenuRef = useRef();
     
         const openMenu = () => {
@@ -79,6 +78,6 @@ const Navbar = () => {
         </nav>
     </div>
   )
-}}
+}
 
 export default Navbar
