@@ -19,7 +19,17 @@ const About = () => {
                 <Image src={assets.profile_img} alt='user'
                 className='w-full rounded-3xl filter contrast-115'/>
             </div>
-
+            <div className='flex-1 '>
+                <p className='mb-10 max-w-2xl font-Outfit'>
+                    I am a second-year Computer Science student with a strong 
+                    interest in web development and artificial intelligence. 
+                    I am eager to learn new technologies, improve my problem-solving 
+                    skills, and work on innovative projects that make an impact. 
+                    My curiosity drives me to explore various domains in technology 
+                    while continuously expanding my knowledge and expertise
+                </p>
+            </div>
+            
         </div>
     </div>
   )
