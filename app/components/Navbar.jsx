@@ -10,7 +10,7 @@ const Navbar = () => {
         }
     
         const closeMenu = () => {
-            sideMenuRef.current.style.transform = 'translateX(16rem)';
+            sideMenuRef.current.style.transform = 'translateX(16rem)'
         }
     
         const [isScroll, setIsScroll] = useState(false);
