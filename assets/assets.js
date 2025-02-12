@@ -72,24 +72,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Project #',
+        title: 'Portfolio',
         description: 'Web Design',
         bgImage: '/work-1.png',
+        link:'https://github.com/Oaksoe11/Oaksoe11.github.io'
     },
     {
         title: 'Project #',
         description: 'Mobile App',
         bgImage: '/work-2.png',
+        link:''
     },
     {
         title: 'Project #',
         description: 'Web Design',
         bgImage: '/work-3.png',
+        link:''
     },
     {
         title: 'Project #',
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
+        link:''
     },
 ]
 
