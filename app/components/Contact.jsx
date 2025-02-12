@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contact = () => {
 
@@ -26,9 +26,21 @@ const Contact = () => {
         setResult(data.message);
       }
     }; 
-    
+
   return (
-    <div>
+    <div id="contact" className=' sm:px-[10%] 
+    py-10 scroll-mt-20 bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center 
+    bg-[length:90%_auto] md:mb-[-50px] md:mt-[-20px]'>
+        <div>
+        <h4 className='text-center text-lg font-Outfit'>
+                Connect with me
+        </h4>
+        <div className='flex flex-row gap-4 justify-center mt-4'>
+                <h2 className='flex text-center text-5xl font-Outfit'>
+                    Get in touch
+                </h2>
+        </div>
+        </div>
       
     </div>
   )
