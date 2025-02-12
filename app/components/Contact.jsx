@@ -44,7 +44,7 @@ const Contact = () => {
 
                 <ul className='flex gap-4 '>
                     <li>
-                        <a href="" target="_blank" 
+                        <a href="https://www.instagram.com/oaksoe_11/" target="_blank" 
                         rel="noopener noreferrer" 
                         className="flex  items-center justify-center
                             w-12 sm:w-14 aspect-square border border-gray-400
@@ -56,7 +56,7 @@ const Contact = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="" target="_blank" 
+                        <a href="https://www.linkedin.com/feed/" target="_blank" 
                         rel="noopener noreferrer" 
                         className="flex items-center justify-center
                             w-12 sm:w-14 aspect-square border border-gray-400
@@ -68,7 +68,7 @@ const Contact = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="" target="_blank" 
+                        <a href="https://github.com/Oaksoe11" target="_blank" 
                         rel="noopener noreferrer" 
                         className="flex items-center justify-center
                             w-12 sm:w-14 aspect-square border border-gray-400
