@@ -43,6 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) to see your site in action.
 ## 📜 License
 
 This project is open-source under the [MIT License](LICENSE).
+- I chose the MIT License because it's simple, permissive, and widely used. It allows others to use, modify, and distribute my code with minimal restrictions while still giving me credit. This makes it great for open-source projects, encouraging collaboration without legal complications. Plus, it ensures my work can be used in both personal and commercial projects without hassle.
 
 ## 📸 Credits
 
