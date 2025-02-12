@@ -81,6 +81,11 @@ const Contact = () => {
                     </li>
                 </ul>
         </div>
+            <p className='text-center max-w-2xl mx-auto mt-5 md:mb-[-20px] font-Outfit'>
+                I'd love to hear from you! If you have any questions, comments,
+                or feedback, please use the form below.
+            </p>
+
         </div>
       
     </div>
