@@ -1,3 +1,5 @@
+import { assets } from '@/assets/assets';
+import Image from 'next/image';
 import React, { useState } from 'react'
 
 const Contact = () => {
@@ -39,6 +41,45 @@ const Contact = () => {
                 <h2 className='flex text-center text-5xl font-Outfit'>
                     Get in touch
                 </h2>
+
+                <ul className='flex gap-4 '>
+                    <li>
+                        <a href="" target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="flex  items-center justify-center
+                            w-12 sm:w-14 aspect-square border border-gray-400
+                            rounded-lg cursor-pointer hover:-translate-y-2
+                            duration-500 hover:shadow-blue">
+                                <Image src={assets.instagram} alt='instagram'
+                                className='w-8'/>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="flex items-center justify-center
+                            w-12 sm:w-14 aspect-square border border-gray-400
+                            rounded-lg cursor-pointer hover:-translate-y-3 
+                            duration-500 hover:shadow-blue">
+                                <Image src={assets.linkedin} alt='linkedin'
+                                className='w-8'/>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="flex items-center justify-center
+                            w-12 sm:w-14 aspect-square border border-gray-400
+                            rounded-lg cursor-pointer hover:-translate-y-3 
+                            duration-500 hover:shadow-blue">
+                                <Image src={assets.github} alt='github'
+                                className='w-8'/>
+
+                        </a>
+                    </li>
+                </ul>
         </div>
         </div>
       
