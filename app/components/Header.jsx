@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='flex lg:flex-row lg:items-start h-screen gap-10'>
         <div className='w-full lg:w-7/12 max-w-3xl flex flex-col
-            gap-4 px-6 sm:px-4 lg:ml-24 lg:py-20 h-screen '>
+            gap-4 px-6 sm:px-4 lg:ml-24 lg:py-20 min-h-screen '>
 
             <h3 className='flex items-end gap-2 text-xl md:text-2xl 
                 font-Outfit mt-28 ml-1'>
