@@ -38,7 +38,8 @@ Open [http://localhost:3000](http://localhost:3000) to see your site in action.
 - **Github pages** – Hosting and deployment platform
 
 ## 📦 Build and Deploy
--[Live view] https://oaksoes-portfolio.vercel.app/#projects
+<a href="https://oaksoes-portfolio.vercel.app/#top" target="_blank">Live view</a>
+
 
 ## 📜 License
 
