@@ -72,15 +72,15 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Portfolio',
-        description: 'Web Design',
+        title: 'Love At First Paw',
+        description: 'Pet Adoption Platform',
         bgImage: '/work-1.png',
         link:'https://github.com/Oaksoe11/Oaksoe11.github.io'
     },
     {
         title: 'Project #',
         description: 'Mobile App',
-        bgImage: '/work-2.png',
+        bgImage: '/loveatfirstpaw.png',
         link:''
     },
     {
