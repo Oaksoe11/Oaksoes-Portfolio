@@ -21,7 +21,7 @@ const About = () => {
             </div>
             <div className='flex-1 '>
                 <p className='mb-10 max-w-2xl font-Outfit'>
-                    I am a second-year Computer Science student with a strong 
+                    I am a second-year Engineering Science student with a strong 
                     interest in web development and artificial intelligence. 
                     I am eager to learn new technologies, improve my problem-solving 
                     skills, and work on innovative projects that make an impact. 

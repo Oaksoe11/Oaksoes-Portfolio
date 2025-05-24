@@ -14,13 +14,13 @@ const Header = () => {
                 <Image src={assets.hand_icon} alt='' className='w-6' />
             </h3>
             <h1 className='text-3xl sm:text-6xl lg:text-[70px] font-Ovo'>
-                Second Year Computer Science student at <br/>
+                Second Year Engineering Science student at <br/>
                 Simon Fraser University
             </h1>
             <p className='max-w-2xl  font-Outfit lg:text-[24px]'>
                 Passionate about web development and AI.
-                Experienced with C, C++, Java, HTML, CSS, JavaScript, Next.js, Node.js, 
-                Tailwind CSS, MongoDB and SQLite.
+                Experienced with C++, Java, HTML, CSS, JavaScript, React, Next.js,
+                Tailwind CSS, and SQLite.
             </p>
             <div className='flex flex-col sm:flex-row gap-4 mt-4 '>
                 <a href="#contact"
