@@ -72,29 +72,27 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Love At First Paw',
-        description: 'Pet Adoption Platform',
+        title: 'Portfolio',
+        description: 'Web Design',
         bgImage: '/work-1.png',
-        link:'https://github.com/Oaksoe11/Oaksoe11.github.io'
+        livelink:'https://oaksoes-portfolio.vercel.app',
+        repolink:'https://github.com/Oaksoe11/Oaksoes-Portfolio#'
     },
     {
-        title: 'Project #',
-        description: 'Mobile App',
+        title: 'Love At First Paw',
+        description: 'Pet Adoption Platform',
         bgImage: '/loveatfirstpaw.png',
-        link:''
+        livelink:'https://love-at-first-paw-six.vercel.app',
+        repolink:'https://github.com/Oaksoe11/love-at-first-paw'
     },
     {
         title: 'Project #',
         description: 'Web Design',
         bgImage: '/work-3.png',
-        link:''
+        livelink:'',
+        repolink:''
     },
-    {
-        title: 'Project #',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-        link:''
-    },
+    
 ]
 
 export const infoList = [
