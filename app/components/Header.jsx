@@ -40,7 +40,7 @@ const Header = () => {
                 </a>
             </div>
         </div>
-        <div className='hidden lg:flex lg:w-5/12 justify-center'>
+        <div className='hidden lg:flex lg:w-5/12 justify-center mt-12'>
                 <Image src={assets.profile_imgg} alt=''
                 className='rounded-full w-80 h-auto shadow-xl 
                 py-28 filter brightness-90 contrast-125'/>
