@@ -86,11 +86,11 @@ export const workData = [
         repolink:'https://github.com/Oaksoe11/love-at-first-paw'
     },
     {
-        title: 'Project #',
-        description: 'Web Design',
+        title: 'SmarterAI',
+        description: 'AI Flashcards Generator',
         bgImage: '/work-3.png',
-        livelink:'',
-        repolink:''
+        livelink:'https://ai-flashcard-topaz.vercel.app',
+        repolink:'https://github.com/Oaksoe11/AI-flashcard?tab=readme-ov-file'
     },
     
 ]
