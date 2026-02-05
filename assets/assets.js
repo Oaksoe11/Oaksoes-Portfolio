@@ -97,7 +97,7 @@ export const workData = [
 
 export const infoList = [
     { icon: assets.code_icon, title: 'Languages', description: 'C++, Java, HTML, CSS, Tailwind CSS, JavaScript, React Js, Next Js, SQLite' },
-    { icon: assets.edu_icon, title: 'Education', description: 'B.Sc. in Engineering Science, Expected 2028' },
+    { icon: assets.edu_icon, title: 'Education', description: 'B.Sc. in Software Systems, Expected 2028' },
     { icon: assets.project_icon, title: 'Projects', description: 'Hands on experience with personal projects' }
 ];
 

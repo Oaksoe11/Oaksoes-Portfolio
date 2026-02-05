@@ -30,7 +30,7 @@ const Header = () => {
           transition={{ duration: 0.6, ease: 'easeOut', delay: 0.4 }}
           className='text-3xl sm:text-6xl lg:text-[70px] font-Ovo'
         >
-          Second Year Engineering Science student at <br />
+          Third Year Software Systems student at <br />
           Simon Fraser University
         </motion.h1>
 
