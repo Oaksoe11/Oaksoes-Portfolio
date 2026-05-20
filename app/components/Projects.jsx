@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Projects = () => {
   return (
-    <div id="projects" className='w-full px-6 sm:px-[8%] py-6 mt-32 scroll-mt-20 min-h-screen'>
+    <div id="projects" className='w-full px-6 sm:px-[8%] py-20 scroll-mt-20'>
       <div className="mx-auto max-w-7xl">
         <h4 className='text-center mb-2 text-lg font-Outfit'>
             My Portfolio

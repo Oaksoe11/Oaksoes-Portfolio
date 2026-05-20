@@ -4,7 +4,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div id="about" className='w-full px-[12%] py-2 scroll-mt-20 min-h-screen mt-5'>
+    <div id="about" className='w-full px-6 sm:px-[8%] py-20 scroll-mt-20'>
+      <div className='mx-auto max-w-7xl'>
         <h4 className='text-center mb-2 text-lg font-Outfit'>
             Introduction
         </h4>
@@ -14,13 +15,13 @@ const About = () => {
         </h2>
 
         <div className='flex w-full flex-col lg:flex-row items-center
-        gap-20 mt-8'>
-            <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
+        justify-center gap-12 xl:gap-20 mt-12'>
+            <div className='w-64 sm:w-80 lg:w-72 xl:w-80 rounded-3xl max-w-none shrink-0'>
                 <Image src={assets.profile_img} alt='user'
                 className='w-full rounded-3xl filter contrast-115'/>
             </div>
-            <div className='flex-1 '>
-                <p className='mb-10 max-w-2xl font-Outfit'>
+            <div className='w-full max-w-3xl'>
+                <p className='mb-10 font-Outfit text-gray-700'>
                     I am a Software Systems student at Simon Fraser University
                     focused on full-stack development, AI-powered tools, and secure
                     software practices. I enjoy building practical applications,
@@ -29,12 +30,12 @@ const About = () => {
                 </p>
 
                 <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6
-                max-w-2xl'>
+                w-full'>
                     {infoList.map(({icon, title, description},
                         index) => (
-                        <li className='border-[0.5px] border-gray-400 
+                        <li className='border-[0.5px] border-gray-400
                         rounded-xl p-6 cursor-pointer hover:bg-lightHover
-                        hover:-translate-y-3 duration-500 hover:shadow-blue'
+                        hover:-translate-y-2 duration-500 hover:shadow-blue'
                         key={index}>
                             <Image src={icon} alt={title} className='w-7 mt-3' />
                             <h3 className='my-4 font-semibold 
@@ -47,16 +48,16 @@ const About = () => {
                 <h4 className='my-6 text-gray-700 font-Outfit'>
                     Tools I use
                 </h4>
-                <ul className='flex items-center gap-3 sm:gap-5'>
+                <ul className='flex flex-wrap items-center gap-3 sm:gap-5'>
                     {toolsData.map((tool, index) => (
                          <li key={index} className="flex items-center justify-center">
                          <a
-                           href={tool.url} 
-                           target="_blank" 
-                           rel="noopener noreferrer" 
+                           href={tool.url}
+                           target="_blank"
+                           rel="noopener noreferrer"
                            className="flex items-center justify-center
                              w-12 sm:w-14 aspect-square border border-gray-400
-                             rounded-lg cursor-pointer hover:-translate-y-3 
+                             rounded-lg cursor-pointer hover:-translate-y-2
                              duration-500 hover:shadow-blue">
                             <Image src={tool.image} alt='Tool' className='w-5
                             sm:w-7'/>
@@ -67,6 +68,7 @@ const About = () => {
             </div>
             
         </div>
+      </div>
     </div>
   )
 }

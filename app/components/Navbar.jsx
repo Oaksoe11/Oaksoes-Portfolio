@@ -30,11 +30,12 @@ const Navbar = () => {
         <Image src={assets.header_bg_color} alt="" className = 'w-full' />
     </div>
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4
-      flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm": ""}`}>
+      z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm": ""}`}>
+        <div className='mx-auto flex max-w-7xl items-center justify-between'>
         <a href="#top">
             {/* <Image src={assets.logo} 
             alt='' className = 'w-20 cursor-pointer mr-14' /> */}
-            <h1 className="text-4xl font-bold text-g'ray-900 cursor-pointer">
+            <h1 className="text-4xl font-bold text-gray-900 cursor-pointer">
             OakSoe<span className="text-blue-400">.</span>
             </h1>
         </a>
@@ -83,6 +84,7 @@ const Navbar = () => {
             <li><a onClick={closeMenu} href="#projects">My Projects</a></li>
             <li><a onClick={closeMenu} href="#contact">Contact me</a></li>
         </ul>
+        </div>
       </nav>
     </>
   )
