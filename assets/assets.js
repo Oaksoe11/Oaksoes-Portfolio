@@ -89,6 +89,7 @@ export const workData = [
         title: 'AI Study Notes Tracker',
         description: 'AI Notes & Quiz Platform',
         bgImage: '/ai-study-notes-tracker.png',
+        imageFit: 'contain',
         livelink:'https://ai-study-notes-tracker.vercel.app/',
         repolink:'https://github.com/Oaksoe11/AI_StudyNotes_Tracker.git'
     },
