@@ -30,7 +30,7 @@ const Header = () => {
           transition={{ duration: 0.6, ease: 'easeOut', delay: 0.4 }}
           className='text-3xl sm:text-6xl lg:text-[70px] font-Ovo'
         >
-          Third Year Software Systems student at <br />
+          Software Systems student at <br />
           Simon Fraser University
         </motion.h1>
 
@@ -40,7 +40,7 @@ const Header = () => {
           transition={{ duration: 0.5, ease: 'easeOut', delay: 0.6 }}
           className='max-w-2xl font-Outfit lg:text-[24px]'
         >
-          Passionate about web development and AI. Experienced with C++, Java, HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, and SQLite.
+          I build full-stack web apps with React, Next.js, TypeScript, Python, FastAPI, SQL, and Supabase, with growing interests in AI, secure software, and systems work.
         </motion.p>
 
         <motion.div

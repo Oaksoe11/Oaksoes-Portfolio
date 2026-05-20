@@ -56,7 +56,7 @@ const Contact = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/feed/" target="_blank" 
+                        <a href="https://www.linkedin.com/in/oak-soe-khant-6875b72a1/" target="_blank"
                         rel="noopener noreferrer" 
                         className="flex items-center justify-center
                             w-12 sm:w-14 aspect-square border border-gray-400

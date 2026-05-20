@@ -86,19 +86,19 @@ export const workData = [
         repolink:'https://github.com/Oaksoe11/love-at-first-paw'
     },
     {
-        title: 'SmarterAI',
-        description: 'AI Flashcards Generator',
-        bgImage: '/work-3.png',
-        livelink:'https://ai-flashcard-topaz.vercel.app',
-        repolink:'https://github.com/Oaksoe11/AI-flashcard?tab=readme-ov-file'
+        title: 'AI Study Notes Tracker',
+        description: 'AI Notes & Quiz Platform',
+        bgImage: '/ai-study-notes-tracker.png',
+        livelink:'https://ai-study-notes-tracker.vercel.app/',
+        repolink:'https://github.com/Oaksoe11/AI_StudyNotes_Tracker.git'
     },
     
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, title: 'Languages', description: 'C++, Java, HTML, CSS, Tailwind CSS, JavaScript, React Js, Next Js, SQLite' },
-    { icon: assets.edu_icon, title: 'Education', description: 'B.Sc. in Software Systems, Expected 2028' },
-    { icon: assets.project_icon, title: 'Projects', description: 'Hands on experience with personal projects' }
+    { icon: assets.code_icon, title: 'Languages', description: 'Python, SQL, Java, C/C++, JavaScript, TypeScript, Rust' },
+    { icon: assets.edu_icon, title: 'Education', description: 'B.ASc. in Software Systems, Expected Dec 2027' },
+    { icon: assets.project_icon, title: 'Projects', description: 'Full-stack apps with Next.js, FastAPI, Supabase, REST APIs, and SQL' }
 ];
 
 export const toolsData = [

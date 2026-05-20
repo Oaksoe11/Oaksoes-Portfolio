@@ -21,12 +21,11 @@ const About = () => {
             </div>
             <div className='flex-1 '>
                 <p className='mb-10 max-w-2xl font-Outfit'>
-                    I am a third year software systems student with a strong 
-                    interest in web development and artificial intelligence. 
-                    I am eager to learn new technologies, improve my problem-solving 
-                    skills, and work on innovative projects that make an impact. 
-                    My curiosity drives me to explore various domains in technology 
-                    while continuously expanding my knowledge and expertise
+                    I am a Software Systems student at Simon Fraser University
+                    focused on full-stack development, AI-powered tools, and secure
+                    software practices. I enjoy building practical applications,
+                    debugging real product issues, and turning messy requirements
+                    into reliable user-facing experiences.
                 </p>
 
                 <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6
